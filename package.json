@@ -1,0 +1,26 @@
+{
+  "name": "decentracert",
+  "version": "1.0.0",
+  "description": "DecentraCert - Blockchain-Based Academic Credential Issuance & Verification Platform",
+  "scripts": {
+    "test:contracts": "npm run --prefix blockchain test",
+    "test:backend": "npm run --prefix backend test",
+    "test": "npm run test:contracts && npm run test:backend",
+    "build:contracts": "npm run --prefix blockchain compile",
+    "build:backend": "npm run --prefix backend build",
+    "build:frontend": "npm run --prefix frontend build",
+    "build": "npm run build:contracts && npm run build:backend && npm run build:frontend"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "sepolia",
+    "credentials",
+    "solidity",
+    "express",
+    "react",
+    "verification"
+  ],
+  "author": "DecentraCert Engineering Team",
+  "license": "MIT"
+}

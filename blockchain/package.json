@@ -1,0 +1,22 @@
+{
+  "name": "decentracert-blockchain",
+  "version": "1.0.0",
+  "description": "Smart contracts and tests for DecentraCert credential registry",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.6.6",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.18",
+    "typescript": "^7.0.2"
+  }
+}
